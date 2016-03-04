@@ -39,7 +39,6 @@ ul.icons li a:hover {
   color: #634379;
 }
 
-
 .col-head {
   margin-bottom: 40px;
 }
@@ -62,6 +61,7 @@ ul#sources {
   list-style-type: none;
   text-align: left;
   padding-bottom: 30px;
+  padding-left: 0;
 }
 ul#sources li {
   margin-bottom: 1em;
