@@ -1,5 +1,5 @@
 body {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 #header {
@@ -7,8 +7,8 @@ body {
 }
 
 #logo {
-  width: 200px;
-  margin-bottom: 30px;
+  width: 100px;
+  margin-bottom: 10px;
 }
 
 ul.icons {
@@ -39,6 +39,7 @@ ul.icons li a:hover {
   color: #634379;
 }
 
+
 .col-head {
   margin-bottom: 40px;
 }
@@ -60,6 +61,7 @@ ul.icons li a:hover {
 ul#sources {
   list-style-type: none;
   text-align: left;
+  padding-bottom: 30px;
 }
 ul#sources li {
   margin-bottom: 1em;
@@ -83,4 +85,35 @@ p.invite-form-info {
   color: #777;
   margin-bottom: 20px;
   font-size: 12px;
+}
+
+#signup-form input[type=email] {
+  width: 250px;
+  margin: 0 auto 10px auto;
+}
+
+/* Responsive */
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 50px;
+  }
+  #logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  ul#sources {
+    padding-bottom: 0;
+  }
+  #signup-form input[type=email] {
+    width: auto;
+    margin: 0;
+  }
 }
