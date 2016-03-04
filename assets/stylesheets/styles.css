@@ -1,0 +1,86 @@
+body {
+  padding-top: 80px;
+}
+
+#header {
+  color: #444;
+}
+
+#logo {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+ul.icons {
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+ul.icons li {
+  display: inline;
+  font-size: 24px;
+  margin: 0 1em;
+}
+ul.icons li a {
+  color: #444;
+}
+ul.icons li a:hover {
+  text-decoration: none;
+  color: #9565b7; /* light violet */
+}
+
+#content {
+  margin: 50px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+#content a, #footer a {
+  color: #634379;
+}
+
+.col-head {
+  margin-bottom: 40px;
+}
+
+.col-head .fa {
+  font-size: 42px;
+  color: #634379; /* dark violet */
+}
+
+.btn-primary {
+  background-color: #634379;
+  border-color: #9565b7;
+}
+.btn-primary:hover {
+  background-color: #9565b7;
+  border-color: #634379;
+}
+
+ul#sources {
+  list-style-type: none;
+  text-align: left;
+}
+ul#sources li {
+  margin-bottom: 1em;
+}
+ul#sources li a {
+  font-weight: bold;
+}
+
+.panel {
+  margin: 0 20px;
+}
+
+p.invite-form-info {
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
+
+#footer {
+  text-align: center;
+  color: #777;
+  margin-bottom: 20px;
+  font-size: 12px;
+}

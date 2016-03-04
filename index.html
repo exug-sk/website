@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/assets/stylesheets/styles.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ExUG.sk</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row text-center" id="header">
+      <img src="/assets/images/exug_sk_avatar_v2.png" alt="ExUG.sk logo" width="200" id="logo">
+      <h1>ExUG.sk</h1>
+      <p class="lead">Slovenská komunita používateľov jazyka Elixir</p>
+      <ul class="icons">
+				<li><a href="https://github.com/exug-sk" class="fa fa-github" target="_blank" title="Github Org"></a></li>
+				<li><a href="https://twitter.com/exug_sk" class="fa fa-twitter" target="_blank" title="Twitter"></a></li>
+				<!-- <li><a href="https://facebook.com/stamplay" class="icon fa-facebook" target="_blank"></a></li> -->
+			</ul>
+    </div>
+
+    <hr>
+
+    <div class="row" id="content">
+      <div class="col-md-6">
+        <div class="col-head">
+          <i class="fa fa-book"></i>
+          <h3>Materiály</h3>
+        </div>
+        <ul id="sources">
+          <li>
+            <a href="http://elixir-lang.org/getting-started/introduction.html" title="Getting Started">Getting Started</a> - Oficiálna učebnica jazyka od základov až po Mix a OTP. Výborný a aktuaálny text. V angličtine.
+          </li>
+          <li><a href="http://elixir-lang.org/docs/stable/elixir/Kernel.html" title="">Dokumentácia</a> - Oficiálna dokumentácia jazyka a štandardnej knižnice. Veľmi zrozumiteľne napísaná, vrátane príkladov k jednotlivým funkciám. V angličtine.</li>
+          <li><a href="http://elixirschool.com" title="Elixir School">ElixirSchool.com</a> - Ďalšia online učebnica jazyka. Od úplných základov až po metaprogramovanie. V angličtine, no pracujeme na <a href="https://github.com/exug-sk/elixir-school" title="Slovenská mutácia ElixirSchool.com">slovenskom preklade</a>.</li>
+          <li><a href="https://elixir-examples.github.io" title="Elixir Examples">Elixir Examples</a> - Zbierka drobných snippetov (príkladov) pre riešenie rôznych bežných situácii. Veľmi užitočné. V angličtine.</li>
+          <li><a href="http://www.phoenixframework.org/docs/overview" title="Phoenix Web Framework">Phoenix Web Framework</a> - Oficiálna príručka k webovému frameworku Phoenix. V angličtine.</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div class="col-head">
+          <i class="fa fa-comments-o"></i>
+          <h3>Diskusia</h3>
+        </div>
+
+        <p><strong>Zapoj sa do diskusie na komunitnom Slacku!</strong></p>
+
+        <p>Spýtaj sa na radu, pochváľ sa úspechmi,<br> nájdi spolupracovníkov na svoj projekt.</p>
+
+        <br>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <form id="signup-form" method="post" action="#" class="form-inline">
+              <div class="form-group">
+                <label for="email" class="sr-only"></label>
+                <input type="email" name="email" id="email" placeholder="Tvoj email" class="form-control"/>
+                <input type="submit" value="Poslať pozvánku" class="btn btn-primary"/>
+              </div>
+            </form>
+            <br>
+            <p class="invite-form-info">Žiaľ, Slack neumožňuje otvorené teamy, takže je nutné každému záujemcovi poslať pozvánku. Máme to však zautomatizované - po vložení adresy do nasledujúceho formulára by ti mala pozvánka prísť do pár minút.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row" id="footer">
+      ExUG.sk, <a href="mailto:michal.valasek@gmail.com">michal.valasek@gmail.com</a>
+    </div>
+
+  </div>
+
+  <!-- <script src="https://code.jquery.com/jquery.min.js"></script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+  <script>
+		var stamplay_appid = "exugsk";
+		var stamplay_webhookid = "invites";
+	</script>
+	<script src="https://drrjhlchpvi7e.cloudfront.net/libs/stamplay-js-sdk/1.2.5/stamplay.min.js"></script>	<script src="/assets/javascripts/main.js"></script>
+</body>
+</html>
